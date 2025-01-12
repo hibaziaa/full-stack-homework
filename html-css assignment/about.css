@@ -3,11 +3,148 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
 .main {
-   height: 100vh;
-   width: 100%;
-   background-color: #f7f0e3;
-   color: #060504;
+    height: 100vh;
+    width: 100%;
+    background-color: #f7f0e3;
+    color: #060504;
+    padding: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
 }
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 15px 15px 0 rgba(188, 181, 172, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 20px;
+}
+
+.card-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.card-top .left {
+  display: flex;
+  gap: 10px;
+}
+
+.card-top .left .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.card-top .left .red {
+    background-color: #f44336;
+}
+
+.card-top .left .yellow {
+    background-color: #FFEB3B;
+}
+
+.card-top .left .green {
+    background-color: #4CAF50;
+}
+
+.card-top .right {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.right {
+    margin: 20px;
+}
+
+.right h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about {
+    font-size: 22px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.contact{
+    padding-top: 20px;
+}
+.contact h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #060504;
+    margin: 10px 0;
+}
+
+.contact-info {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.phone, .insta {
+     display: flex;
+     gap: 10px;
+     font-size: 20px;
+     align-items: center;
+     font-weight: 500;
+}
+
+i {
+    font-size: 24px;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
+    margin: 0 auto;
+    float: right;
+  }
+  
+  .icon-container span {
+    font-size: 40px;
+  }
+  
+  .top-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .bottom-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
